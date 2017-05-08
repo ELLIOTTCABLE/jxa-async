@@ -1,0 +1,37 @@
+{  "author"     : "ELLIOTTCABLE (http://ell.io/tt)"
+
+ , "name"       : "jxa-async"
+ , "version"    : "0.0.1"
+ , "license"    : "ISC"
+ , "private"    : "true"
+
+ , "repository" : "ELLIOTTCABLE/jxa-async"
+ , "bugs"       : "https://github.com/ELLIOTTCABLE/jxa-async/issues"
+
+ , "description":
+      "macOS Grand Central Dispatch-based implementation of setTimeout et al. for the JavaScript for Automation environment."
+ , "keywords"   : [
+      "jxa", "macos", "mac", "osascript", "dispatch"
+    , "async", "delay", "defer", "wait", "await", "promises"
+    , "setTimeout", "clearTimeout", "setInterval", "clearInterval", "nextTick"
+   ]
+
+ , "main"       : "./lib/jxa-async.js"
+
+ , "scripts": {
+      "build"                  : "./build.sh"
+    , "test"                   : "bats ./test/*.bats"
+   }
+
+ , "engines"    :{"jxa":">10.11.0"}
+
+ , "dependencies"     :{"pkginfo"                            : "^0.4.0"
+                      , "max-timeout"                        : "=1.0.0"
+   }
+
+ , "devDependencies"  :{"bats"                               : "^0.4.2"
+                      , "bats-support"                       : "ztombol/bats-support#v0.3.0"
+                      , "bats-assert"                        : "ztombol/bats-assert#v0.3.0"
+                      , "bats-file"                          : "ztombol/bats-file#v0.2.0"
+   }
+}
