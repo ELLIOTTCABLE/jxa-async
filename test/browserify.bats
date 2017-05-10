@@ -12,7 +12,7 @@ load 'common'
 
    run osascript -l JavaScript bundle.js
    assert_success
-   assert_equal "$output" "0.0.1"
+   assert_output --regexp '^[0-9]+\.[0-9]+\.[0-9]$'
 }
 
 
