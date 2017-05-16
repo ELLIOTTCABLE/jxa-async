@@ -1,9 +1,8 @@
 {  "author"     : "ELLIOTTCABLE (http://ell.io/tt)"
 
  , "name"       : "jxa-async"
- , "version"    : "0.0.1"
+ , "version"    : "0.0.1-test.0"
  , "license"    : "ISC"
- , "private"    : "true"
 
  , "repository" : "ELLIOTTCABLE/jxa-async"
  , "bugs"       : "https://github.com/ELLIOTTCABLE/jxa-async/issues"
