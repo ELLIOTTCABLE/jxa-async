@@ -23,7 +23,12 @@
     , "test"                   : "bats ./test/*.bats"
    }
 
- , "engines"    :{"jxa":">10.11.0"}
+ , "engines"    : {
+      "npm"     : ">4.0.0"
+
+    , "jxa"     : ">10.11.0"
+    , "node"    : "=0.0.0"
+   }
 
  , "dependencies"     :{"pkginfo"                            : "^0.4.0"
                       , "max-timeout"                        : "=1.0.0"
