@@ -17,8 +17,15 @@
 
  , "main"       : "./lib/jxa-async.js"
 
+ , "directories": {
+      "lib"     : "./lib"
+    , "build"   : "./build"
+    , "test"    : "./test"
+    , "doc"     : "./doc"
+   }
+
  , "scripts": {
-      "build"                  : "./build.sh"
+      "build"                  : "./tool/build.sh"
     , "test"                   : "bats ./test/*.bats"
    }
 

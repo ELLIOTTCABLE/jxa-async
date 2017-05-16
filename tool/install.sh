@@ -1,4 +1,6 @@
 #!/usr/bin/env sh
+VERSION='0.0.1-test.0'
+# (^ The preceding line is updated upon `prepublish` to match `package.version` ^)
 
 # Usage:
 # ------
@@ -200,6 +202,9 @@ if [ -z "${IGNORE_USER##[NFnf]*}" ]; then
 else
    [ -n "$DEBUG_SCRIPTS" ] && pute "Ignoring current user / permissions ..."
 fi
+
+# ### Installation!
+puts 'Installing `jxa-async` v'"$VERSION ..."
 
 #  Now that we know the whole script has downloaded, run it.
 }; _ "$@"
